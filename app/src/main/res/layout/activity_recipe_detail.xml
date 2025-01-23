@@ -1,0 +1,37 @@
+<!-- File: activity_recipe_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <!-- Image view to display recipe image -->
+    <ImageView
+        android:id="@+id/recipeDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/qw"
+    />
+
+
+    <!-- Text for recipe name -->
+    <TextView
+        android:id="@+id/recipeDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipe Name"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Text for recipe description -->
+    <TextView
+        android:id="@+id/recipeDetailDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipe Description"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

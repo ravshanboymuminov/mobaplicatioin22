@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">mobileaplication1</string>
+    <string name="next"><![CDATA[Next >]]></string>
+    <string name='link2'>
+        By checking the box you agree to uor <a href='#'> Terms</a> and <a href='#'>Condition</a>
+    </string>
+
+    <string name="memberlink">Already a member? <a href='#'> Log in  </a> </string>
+    <string name="required">Required</string>
+
+    <string name="already_a_member_log_in">Already a member? Log In</string>
+    <string name="next_button">Next ></string>
+    <string name="password">password</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="conditions">condition</string>
+    <string name="and">and</string>
+    <string name="terms">Terms and condition</string>
+    <string name="check_box">box_check</string>
+    <string name="full_name">Full Name</string>
+    <string name="valid_email">Valid email</string>
+    <string name="phone_number">phone number</string>
+    <string name="strong_password">strong password</string>
+    <string name="header_desc">desc head</string>
+    <string name="get_started">Get started</string>
+    <string name="image">image_descr</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in">sign in</string>
+    <string name="remember_me">remember me</string>
+    <string name="forget_password">forget password</string>
+    <string name="New_Member">new member</string>
+    <string name="register_now">register</string>
+    <string name="item_image">item image</string>
+    <string name="i_agree_to_the_terms_conditions"><![CDATA[I agree to the Terms & Conditions.]]></string>
+
+</resources>
+
