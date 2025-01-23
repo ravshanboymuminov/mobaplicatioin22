@@ -56,35 +56,44 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:endIconDrawable="@drawable/user"
+        app:endIconMode="custom"
+        app:endIconTint="@color/black"
+        >
 
         <!-- Full Name Input Field -->
         <EditText
             android:id="@+id/etFullName"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:hint="@string/full_name" /> <!-- Use hint instead of text -->
+            android:hint="@string/full_name"
+            android:drawableEnd="@drawable/person_24dp_5f6368_fill0_wght400_grad0_opsz24" /> <!-- Use hint instead of text -->
 
         <!-- Email Input Field -->
         <EditText
             android:id="@+id/etEmailAddress"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:hint="@string/enter_email" />
+            android:hint="@string/enter_email"
+            android:drawableEnd="@drawable/mail_24dp_5f6368_fill0_wght400_grad0_opsz24"
+            />
 
         <!-- Phone Number Input Field -->
         <EditText
             android:id="@+id/etPhoneNumber"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:hint="@string/phone_number" />
+            android:hint="@string/phone_number"
+            android:drawableEnd="@drawable/phone_iphone_24dp_5f6368_fill0_wght400_grad0_opsz24" />
 
         <!-- Password Input Field -->
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:hint="@string/strong_password" />
+            android:hint="@string/strong_password"
+            android:drawableEnd="@drawable/lock_24dp_5f6368_fill0_wght400_grad0_opsz24" />
     </LinearLayout>
 
     <!-- Agreement Section -->

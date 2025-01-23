@@ -56,24 +56,33 @@
         <!-- Email Input wrapped in TextInputLayout -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/emailInputLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="325dp">
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="325dp"
+            app:endIconDrawable="@drawable/email"
+            app:endIconMode="custom"
+            app:endIconTint="@color/black"
+
+        >
 
             <EditText
                 android:id="@+id/emailInput"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Email"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Password Input wrapped in TextInputLayout -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/passwordInputLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            app:endIconDrawable="@drawable/unlock"
+            app:endIconMode="custom"
+            app:endIconTint="@color/black">
 
             <EditText
                 android:id="@+id/passwordInput"
@@ -116,6 +125,7 @@
         android:backgroundTint="#6C63FF"
         android:text="@string/next_button"
         android:textSize="20sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
